@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import chooseusPhoto from "../../../public/assets/chooseus.jpg";
+import chooseusPhoto from "../../../public/assets/altaf4.jpg";
 
 type Props = {}
 
@@ -25,7 +25,7 @@ const WhyChooseUs = (props: Props) => {
 
       {/* Right Side - Text and Features */}
       <div>
-        <h2 className="text-sm text-teal-600 uppercase font-semibold mb-2">Why Choose Us</h2>
+        <h2 className=" text-teal-600 uppercase font-bold text-2xl mb-2">Why Choose Us</h2>
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Care That Truly Matters</h1>
         <p className="text-gray-600 mb-6">
           At Altaf & Samrat Pharmacy, your health is our top priority. Our team is dedicated to providing personalized, accessible, and trustworthy care that supports your overall well-being.

@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import whatWeOffer from "../../../public/assets/whatweoffer.jpg";
+import whatWeOffer from "../../../public/assets/altaf2.jpg";
 import { GiMedicinePills } from 'react-icons/gi';
 import { RiMentalHealthFill } from 'react-icons/ri';
 import { FaUserDoctor } from 'react-icons/fa6';
@@ -23,32 +23,32 @@ const WhatWeOffer = (props: Props) => {
                         <p className="text-gray-600 mb-6 text-justify">
                             We are committed to providing you with authentic medicines and expert medical guidance whenever you need it. Whether it's regular prescriptions or emergency care, our experienced pharmacists and support team are here to help you live a healthier life — with trust, care, and convenience.
                         </p>
-       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center mt-20">
-  <div>
-    <p className="text-3xl font-bold text-green-600">
-      <CountUp end={99} duration={2} suffix="%" />
-    </p>
-    <p className="text-gray-600 text-sm">Customer Satisfaction</p>
-  </div>
-  <div>
-    <p className="text-3xl font-bold text-green-600">
-      <CountUp end={24} duration={2} suffix="H" />
-    </p>
-    <p className="text-gray-600 text-sm">Support Available</p>
-  </div>
-  <div>
-    <p className="text-3xl font-bold text-green-600">
-      <CountUp end={1200} duration={2.5} separator="," prefix="+"/>
-    </p>
-    <p className="text-gray-600 text-sm">Daily Consultations</p>
-  </div>
-  <div>
-    <p className="text-3xl font-bold text-green-600">
-      <CountUp end={100} duration={2} suffix="%" />
-    </p>
-    <p className="text-gray-600 text-sm">Licensed Products</p>
-  </div>
-</div>
+                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center mt-20">
+                            <div>
+                                <p className="text-3xl font-bold text-green-600">
+                                    <CountUp end={99} duration={2} suffix="%" />
+                                </p>
+                                <p className="text-gray-600 text-sm">Customer Satisfaction</p>
+                            </div>
+                            <div>
+                                <p className="text-3xl font-bold text-green-600">
+                                    <CountUp end={24} duration={2} suffix="H" />
+                                </p>
+                                <p className="text-gray-600 text-sm">Support Available</p>
+                            </div>
+                            <div>
+                                <p className="text-3xl font-bold text-green-600">
+                                    <CountUp end={1200} duration={2.5} separator="," prefix="+" />
+                                </p>
+                                <p className="text-gray-600 text-sm">Daily Consultations</p>
+                            </div>
+                            <div>
+                                <p className="text-3xl font-bold text-green-600">
+                                    <CountUp end={100} duration={2} suffix="%" />
+                                </p>
+                                <p className="text-gray-600 text-sm">Licensed Products</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Additional Cards */}
@@ -72,8 +72,8 @@ const WhatWeOffer = (props: Props) => {
                                 src={whatWeOffer}
                                 alt="Healthcare Team"
                                 width={800}
-                                height={600}
-                                className="object-cover w-full h-full"
+                                height={400}
+                                className="object-cover w-full h-[250px]"
                             />
                         </div>
 

@@ -14,7 +14,11 @@ const Hero = (props: Props) => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
 
         {/* Home Delivery Badge */}
-    <h1 className='text-6xl my-5'>Altaf and Samrat Pharmacy</h1>
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#e46d0c] via-[#bfcc0d] to-[#06f125] text-center my-6">
+  Altaf and Samrat Pharmacy
+</h1>
+
+
 
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Trusted Pharmacy at Your Doorstep

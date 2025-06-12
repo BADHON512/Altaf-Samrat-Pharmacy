@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -9,10 +10,10 @@ const Testimonials = (props: Props) => {
  <section className="py-12 bg-gray-50">
   <div className="container mx-auto px-4">
     <div className="text-center mb-10">
-      <h2 className="text-teal-600 text-sm uppercase tracking-wide">Testimonials</h2>
+      <h2 className="text-teal-600  uppercase tracking-wide text-5xl pb-5 font-bold ">Testimonials</h2>
       <h1 className="text-4xl font-bold text-gray-800 mt-2">Healing Stories, Shared Honestly</h1>
       <p className="text-gray-600 mt-2">
-        Hear from our valued customers how Altaf & Samrat Pharmacy has positively impacted their health journey — with genuine care, expert advice, and affordable service.
+        Hear from our valued customers how Altaf & Samrat Pharmacy <br /> has positively impacted their health journey — with genuine care, expert advice, and affordable service.
       </p>
     </div>
 
@@ -26,9 +27,11 @@ const Testimonials = (props: Props) => {
           "Their personalized care made a real difference in my recovery. Truly the best healthcare experience I've had at Altaf & Samrat Pharmacy."
         </p>
         <div className="flex items-center justify-center">
-          <div className="w-10 h-10 bg-gray-300 rounded-full mr-2"></div>
+          <div className="w-10 h-10 rounded-full mr-2">
+            <Image src={"/assets/methon_kakka.jpg"} height={1000} width={1000} alt='img not found' className='h-full w-full rounded-full object-cover object-top'/>
+          </div>
           <div>
-            <p className="text-gray-800 font-semibold">Michael Thompson</p>
+            <p className="text-gray-800 font-semibold">Sirazul Monir</p>
             <p className="text-gray-600 text-sm">Business Owner</p>
           </div>
         </div>
@@ -41,11 +44,14 @@ const Testimonials = (props: Props) => {
         </div>
         <p className="text-gray-700 italic mb-4">
           "The staff is incredibly helpful and knowledgeable. I always feel safe and well cared for here at Altaf & Samrat Pharmacy."
+          <br /><br />
         </p>
         <div className="flex items-center justify-center">
-          <div className="w-10 h-10 bg-gray-300 rounded-full mr-2"></div>
+          <div className="w-10 h-10  rounded-full mr-2">
+                  <Image src={"/assets/abdul_khalek.jpg"} height={1000} width={1000} alt='img not found' className='h-full w-full rounded-full object-cover object-top'/>
+          </div>
           <div>
-            <p className="text-gray-800 font-semibold">Dr. Sarah Mitchell</p>
+            <p className="text-gray-800 font-semibold">Abdul khalek</p>
             <p className="text-gray-600 text-sm">General Practitioner</p>
           </div>
         </div>
@@ -60,7 +66,10 @@ const Testimonials = (props: Props) => {
           "Joining as a member was the best decision! The 30% discount and monthly checkups are a game changer at Altaf & Samrat Pharmacy."
         </p>
         <div className="flex items-center justify-center">
-          <div className="w-10 h-10 bg-gray-300 rounded-full mr-2"></div>
+          <div className="w-10 h-10 bg-gray-300 rounded-full mr-2">
+
+                  <Image src={"/assets/raja.jpg"} height={1000} width={1000} alt='img not found' className='h-full w-full rounded-full object-cover object-top'/>
+          </div>
           <div>
             <p className="text-gray-800 font-semibold">James Carter</p>
             <p className="text-gray-600 text-sm">Fitness Coach</p>

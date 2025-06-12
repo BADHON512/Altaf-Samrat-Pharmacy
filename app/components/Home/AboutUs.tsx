@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import firstImage from "../../../public/assets/about1.jpg";
-import secondImage from "../../../public/assets/about2.jpg";
+import firstImage from "../../../public/assets/altaf3.jpg";
+import secondImage from "../../../public/assets/altaf4.jpg";
 import { AiFillHome } from 'react-icons/ai';
 import { SiTransmission } from 'react-icons/si';
 
@@ -41,7 +41,7 @@ const AboutUs = (props: Props) => {
 
       {/* Right Side - Text and Info */}
       <div className="w-full md:w-1/2">
-        <h2 className="text-teal-600 text-sm uppercase font-semibold mb-3 tracking-widest">About Us</h2>
+        <h2 className="text-teal-600 text-2xl font-bold uppercase mb-3 tracking-widest">About Us</h2>
         <h1 className="text-4xl font-bold text-gray-800 mb-6 leading-tight">Committed to Quality Care</h1>
         <p className="text-gray-600 mb-8 leading-relaxed">
           At Altaf & Samrat Pharmacy, we are committed to delivering high-quality, trusted healthcare solutions to every individual. From genuine medicines to personalized health support, our mission is to ensure your well-being through safe, accessible, and affordable care. Your health is our highest priority, and we strive to serve you with integrity, empathy, and excellence.

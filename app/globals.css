@@ -33,7 +33,7 @@ body{
 }
 
 .hero-bg {
-  background-image: url('/assets/hero.jpg');
+  background-image: url('../public/assets/for_hero.jpg');
   height: 85vh;
   width: 100%;
   background-repeat: no-repeat;

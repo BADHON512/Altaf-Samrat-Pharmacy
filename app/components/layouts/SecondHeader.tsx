@@ -2,10 +2,10 @@
 import React, { useState } from 'react'
 import Logo from "../../../public/assets/logo.png";
 import Image from 'next/image';
-import { FiPlusCircle } from 'react-icons/fi';
+
 import { FaPlusCircle } from 'react-icons/fa';
 import Link from 'next/link';
-import { IoReorderThreeSharp } from 'react-icons/io5';
+
 import { VscThreeBars } from 'react-icons/vsc';
 import { RxCross2 } from 'react-icons/rx';
 
@@ -23,7 +23,7 @@ const SecondHeader = (props: Props) => {
         </Link>
         <div className="hidden md:flex  items-center gap-x-5 lg:gap-x-8 text-gray-800">
           <Link href={"/"} className="text-[#011F19] font-semibold nav-link">Home</Link>
-          <Link href={"/about"} className="text-[#011F19] font-semibold nav-link">About Us</Link>
+          <Link href={"/ceo"} className="text-[#011F19] font-semibold nav-link">About Us</Link>
           <Link href={"/service"} className="text-[#011F19] font-semibold nav-link">Service</Link>
           <Link href={'/contact'} className="text-[#011F19] font-semibold nav-link">Contact Us</Link>
         </div>
@@ -37,30 +37,30 @@ const SecondHeader = (props: Props) => {
         </div>
       </div>
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-amber-300 shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${MobileNav ? "translate-x-0" : "translate-x-full"
+        className={`fixed top-0 right-0 h-full w-64 bg-[#070d3b] shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${MobileNav ? "translate-x-0" : "translate-x-full"
           }`}
       >
         <div className="p-3">
           <div className="flex justify-end w-full">
             <RxCross2
               size={25}
-              color="black"
+              color="white"
               onClick={() => setMobileNav(false)}
               className="cursor-pointer"
             />
           </div>
 
-          <div className="flex flex-col gap-y-5 text-gray-800">
-            <Link href="/" className="text-[#011F19] font-bold nav-link">
+          <div onClick={() => setMobileNav(false)} className="flex flex-col gap-y-5 text-gray-800">
+            <Link href="/" className="text-[white] font-bold nav-link">
               Home
             </Link>
-            <Link href="/about" className="text-[#011F19] font-bold nav-link">
+            <Link href="/ceo" className="text-[white] font-bold nav-link">
               About Us
             </Link>
-            <Link href="/service" className="text-[#011F19] font-bold nav-link">
+            <Link href="/service" className="text-[white] font-bold nav-link">
               Service
             </Link>
-            <Link href="/contact" className="text-[#011F19] font-bold nav-link">
+            <Link href="/contact" className="text-[white] font-bold nav-link">
               Contact Us
             </Link>
           </div>
