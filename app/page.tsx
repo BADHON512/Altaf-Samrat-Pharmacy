@@ -2,6 +2,7 @@ import AboutUs from "./components/Home/AboutUs";
 import BeComeMember from "./components/Home/BeComeMember";
 import Blog from "./components/Home/Blog";
 import Footer from "./components/Home/Footer";
+import Gallery from "./components/Home/Gallery";
 import Hero from "./components/Home/Hero";
 import Map from "./components/Home/Map";
 import OurTeam from "./components/Home/OurTeam";
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <WhatWeOffer />
       <AboutUs />
+      <Gallery/>
       <BeComeMember />
       <WhyChooseUs />
       < Testimonials />

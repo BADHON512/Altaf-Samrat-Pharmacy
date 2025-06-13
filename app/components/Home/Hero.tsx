@@ -4,7 +4,7 @@ import toast from 'react-hot-toast'
 
 type Props = {}
 
-const OrderHandle=()=>{
+const OrderHandle = () => {
   toast.error('Currently not available')
 }
 
@@ -14,13 +14,13 @@ const Hero = (props: Props) => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
 
         {/* Home Delivery Badge */}
-<h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#e46d0c] via-[#bfcc0d] to-[#06f125] text-center my-6">
-  Altaf and Samrat Pharmacy
-</h1>
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#e46d0c] via-[#bfcc0d] to-[#06f125] text-center my-6">
+          Altaf and Samrat Pharmacy
+        </h1>
 
 
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Trusted Pharmacy at Your Doorstep
         </h1>
 
@@ -29,7 +29,7 @@ const Hero = (props: Props) => {
         </p>
 
         <div className="mt-6 flex flex-col sm:flex-row gap-4">
-          <button onClick={()=>OrderHandle()} className="px-6 py-3 cursor-pointer bg-emerald-500 hover:bg-emerald-600 rounded-lg font-semibold text-white transition">
+          <button onClick={() => OrderHandle()} className="px-6 py-3 cursor-pointer bg-emerald-500 hover:bg-emerald-600 rounded-lg font-semibold text-white transition">
             Order Now
           </button>
           <button className="px-6 py-3 border cursor-pointer border-white rounded-lg font-semibold text-white hover:bg-white hover:text-emerald-600 transition">

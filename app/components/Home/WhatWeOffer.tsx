@@ -12,7 +12,7 @@ type Props = {}
 const WhatWeOffer = (props: Props) => {
     return (
         <div className="w-full bg-gray-100">
-            <section className="py-20 max-w-[1500px] mx-auto px-4">
+            <section className="py-10 max-w-[1500px] mx-auto px-4">
                 <div className="flex flex-col lg:flex-row gap-8 justify-center">
 
                     {/* Main Content */}

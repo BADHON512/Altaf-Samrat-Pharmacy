@@ -8,6 +8,7 @@ import Link from 'next/link';
 
 import { VscThreeBars } from 'react-icons/vsc';
 import { RxCross2 } from 'react-icons/rx';
+import toast from 'react-hot-toast';
 
 type Props = {}
 
@@ -28,7 +29,7 @@ const SecondHeader = (props: Props) => {
           <Link href={'/contact'} className="text-[#011F19] font-semibold nav-link">Contact Us</Link>
         </div>
         <div className="hidden md:flex items-center gap-x-4">
-          <button className='flex items-center bg-[#12B695] px-8 py-3 gap-x-3 rounded-3xl primary-button border border-gray-400'> Make Appointment <FaPlusCircle />
+          <button onClick={() => toast.error("This feature is not available yet.")} className='flex items-center bg-[#12B695] px-8 py-3 gap-x-3 rounded-3xl primary-button border border-gray-400 font-semibold'> Make Appointment <FaPlusCircle />
           </button>
         </div>
 
@@ -66,7 +67,7 @@ const SecondHeader = (props: Props) => {
           </div>
 
           <div className="flex mt-5">
-            <button className="flex items-center bg-[#12B695] px-8 py-3 gap-x-3 rounded-3xl">
+            <button onClick={() => toast.error("This feature is not available yet.")} className="flex items-center bg-[#12B695] p-2 gap-x-2 rounded-[5px] font-semibold">
               Make Appointment <FaPlusCircle />
             </button>
           </div>
